@@ -1,0 +1,32 @@
+To adding and commiting your file on the GIT use below commands:
+1. we need to create one repository for that first create one directory 
+-->$ mkdir devops (devops is directory name) then enter  $ cd devops 
+
+2. Initialize that repo on git
+--> use $git init 
+
+3. create one file into devops folder 
+--> $ touch command.txt
+
+4. write commands in command.txt folder
+--> $ vim commmand.txt
+
+5. check the status of git
+--> $ git status (file is in the untracked stage)
+
+6. add command.txt on git
+--> $ git add command.txt
+
+7. commit the file
+--> $ git commit -m "added succesfully"
+
+8. check status of git
+--> $ git status
+
+9. delete file from local repo 
+--> $ rm command.txt
+
+10. you deleted file from local but it's available on git
+--> $ git retore command.txt
+
+
