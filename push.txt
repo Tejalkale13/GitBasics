@@ -1,6 +1,19 @@
 For fetching, pushing and pulling data from github
 
-1. create one directory 
+1. create one directory or use old directory
 --> $mkdir devops then $cd devops
 
-2. updated
+2. then clone the repo
+--> $git clone --- http url of ur repo----
+
+3. check git status
+
+4. then set url for push 
+--> $ git remote set-url --add http://enter_access_token_of_github_@_remaining_httpcode_url
+{to delete set-url for old push--> git remote set-url --delete __old_url}
+
+5. run push command for pusing local modified file on the github
+--> $git push origin main
+
+6. for pulling the data from github to local 
+--> $git remote pull origin
