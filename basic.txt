@@ -29,4 +29,14 @@ To adding and commiting your file on the GIT use below commands:
 10. you deleted file from local but it's available on git
 --> $ git retore command.txt
 
+11. create branch 
+--> git checkout -b dev
+
+12. to check branch
+--> git branch
+
+13. switch branch (if already exit in sys)
+--> git checkout dev
+
+
 
