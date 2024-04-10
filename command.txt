@@ -1,0 +1,11 @@
+OTHER GIT COMMANDS
+
+1.gitignore file specifies intentionally untracked files that Git should ignore
+--> $vim .gitignore
+    (add that file name which you dont want to commit)
+--> $git add .gitignore
+--> git commit -m "addded"
+
+2. git merge command lets you take the independent lines of development created by git branch and integrate them into a single branch.
+--> git merge dev 
+
