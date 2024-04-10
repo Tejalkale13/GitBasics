@@ -3,4 +3,4 @@ For fetching, pushing and pulling data from github
 1. create one directory 
 --> $mkdir devops then $cd devops
 
-2. 
+2. updated
