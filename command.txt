@@ -9,3 +9,8 @@ OTHER GIT COMMANDS
 2. git merge command lets you take the independent lines of development created by git branch and integrate them into a single branch.
 --> git merge dev 
 
+3. To see git log
+--> git log
+--> git log --oneline
+--> git log --oneline --preety
+
