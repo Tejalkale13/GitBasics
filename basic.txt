@@ -1,4 +1,9 @@
+To configure your Git username and email address, you can use the following commands in the command line:
+Set your username: git config --global user.name "Tejal Kale"
+Set your email address: git config --global user.email "tejalbkale@gmail.com"
+Verify your configuration: cat .git/config 
 To adding and commiting your file on the GIT use below commands:
+
 1. we need to create one repository for that first create one directory 
 -->$ mkdir devops (devops is directory name) then enter  $ cd devops 
 
@@ -27,7 +32,7 @@ To adding and commiting your file on the GIT use below commands:
 --> $ rm command.txt
 
 10. you deleted file from local but it's available on git
---> $ git retore command.txt
+--> $ git restore command.txt
 
 11. create branch 
 --> git checkout -b dev
